@@ -22,6 +22,7 @@ public class Conta_Prog2 {
 		else if (valor > this.saldo) {
 			double x = valor - this.saldo;
 			this.limite = this.limite - x;			
+			System.out.println("Saque de: $" + valor );
 			this.saldo = 0;
 			return true;
 			}
